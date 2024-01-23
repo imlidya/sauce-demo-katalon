@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/div_quantity_in_cart",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[3]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/div_quantity_in_cart_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/div_price_in_cart",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div/div[3]/div[2]/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/div_price_in_cart_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/div_product_description",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div[3]/div[2]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/div_product_description_position.png"
+    }
+  ]
+}
